@@ -11,6 +11,9 @@ html{
     display: flex;
     justify-content: space-between;
 }
+.bg-white{
+    background-color: #fff;
+}
 .padding-around{
     padding: 1rem;
 }
