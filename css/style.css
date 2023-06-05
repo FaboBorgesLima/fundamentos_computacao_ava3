@@ -1,0 +1,41 @@
+html{
+    font-family: sans-serif;
+    min-width: 1000px;
+    background-color: #fffffa;
+}
+.size{
+    margin:0rem auto;
+    min-width: 800px;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.generic-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.stick-top{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.nav-item{
+    width: 25%;
+    height: 4rem;
+    gap: 0.2rem;
+    text-align: center;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+a:link,
+a:visited,
+a:active{
+    text-decoration: none;
+    color:inherit;
+}
